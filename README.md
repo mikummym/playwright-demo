@@ -26,7 +26,7 @@ playwright-demo/
 ────────────────────────────────────────    
 python -m venv venv
 
-2. 激活虚拟环境（Windows）
+2. 激活虚拟环境（Windows）    
 ────────────────────────────────────────     
 venv\Scripts\activate
 
