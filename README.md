@@ -34,7 +34,7 @@ venv\Scripts\activate
 ────────────────────────────────────────     
 pip install -r requirements.txt
 
-4. 安装 Playwright 浏览器
+4. 安装 Playwright 浏览器     
 ────────────────────────────────────────     
 playwright install chromium
     
