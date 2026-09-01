@@ -23,7 +23,7 @@ class LoginPage(BasePage):
         self.password_input.fill(password)
 
     def click_login(self):
-        self.login_button.click()
+        self.safe_click(self.login_button)
 
     def login(self, username: str, password: str):
         """执行登录操作"""

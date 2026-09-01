@@ -20,4 +20,10 @@ jobs:
       - name: Install Playwright browsers
         run: playwright install chromium
       - name: Run tests
-        run: pytest -v
+        run: pytest --junitxml=test-results/junit.xml --alluredir=test-results/allure-results
+      - name: Upload test reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-test-results
+          path: test-results/
