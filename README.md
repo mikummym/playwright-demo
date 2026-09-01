@@ -46,10 +46,10 @@ pytest
 - Playwright trace（`test-results/` 下，可在 [trace.playwright.dev](https://trace.playwright.dev) 回放）
 - 失败用例视频
 
-生成 JUnit 与 Allure 原始数据：
+生成 JUnit 与 Allure 原始数据（playwright 产物在 `test-results/`，allure 数据在根目录 `allure-results/`）：
 
 ```powershell
-pytest --junitxml=test-results/junit.xml --alluredir=test-results/allure-results
+pytest --junitxml=junit.xml --alluredir=allure-results
 ```
 
 ## CI

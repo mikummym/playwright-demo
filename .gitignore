@@ -21,3 +21,5 @@ Thumbs.db
 # 测试产物
 allure-results/
 allure-report/
+test-results/
+junit.xml
